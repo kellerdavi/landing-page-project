@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+
+  font-family: 'inter';
+}
+
+#logomarca {
+  margin-top: 52px;
+  margin-left: 56px;
+  width: 125px x 62px;
+}
+
+#title-1 {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+#text-1 {
+  margin-left: 150px;
+  margin-top: 35px;
+  padding-bottom: 100px;
+}
+#menu-superior {
+  color: aliceblue;
+  background-image: url(image/background.svg);
+}
+
+#menu-informacional {
+  background-color: rgba(234, 236, 229, 1);
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.icone {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+#secao-video {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.texto-informativo {
+  display: flex;
+  align-items: center;
+}
+#titulo-video {
+  color: #247ba0;
+  margin-top: 50px;
+}
+
+#video {
+  margin: 50px 25px 50px 100px;
+}
+
+#Carrossel {
+  background-color: rgba(36, 123, 160, 1);
+  padding: 50px;
+}
+
+#titulo-carrossel {
+  color: rgba(234, 236, 229, 1);
+  text-align: center;
+  font-size: 25px;
+}
+#div-cards {
+  margin-top: 25px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.cards {
+  margin-left: 50px;
+}
+
+#seta-esquerda {
+  display: none;
+}
+
+#Samantha {
+  display: none;
+}
+
+.seta {
+  margin-top: 45%;
+  cursor :pointer;
+}
+
+.seta:hover{
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
+}
+
+#formulario{
+  text-align: center;
+  background-color:white;
+}
+
+#titulo-formulario{
+  color: rgba(56, 56, 56, 1);
+  font-size: 32px;
+  margin-top: 25px;
+  padding: 35px;
+}
+
+input{
+  background-color: rgba(234, 236, 229, 1);
+  width: 413px;
+  height: 53px;
+  border-radius: 8px;
+  margin: 20px;
+  border: 0px;
+  padding-left: 10px;
+}
+
+button{
+  background-color: rgba(36, 123, 160, 1);
+  border-radius: 8px;
+  width: 335px;
+  height: 53px;
+  color:rgba(255, 255, 255, 1) ;
+  font-size: 16px;
+  font-weight: 500;
+  font-weight: bolder;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border: 0px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(46, 156, 203);
+  color: white;
+  transform: translateY(-10px);
+  transition-duration: 1s;
+  box-shadow: 0px 15px 20px rgba(11, 29, 58, 0.367) ;
+}
+
